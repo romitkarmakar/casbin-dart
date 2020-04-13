@@ -1,6 +1,6 @@
-name: dartyaml
+name: casbindart
 maintainer: Romit Karmakar (@romitkarmakar)
-description: dart-yaml helps to modify, read and dump yaml files.
+description: Casbin Dart helps to simplify policy management.
 homepage: https://github.com/romitkarmakar/dart-yaml
 version: 1.0.0+0
 

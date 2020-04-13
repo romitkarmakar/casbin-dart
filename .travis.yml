@@ -1,0 +1,11 @@
+language: dart
+dart:
+  - stable
+script:
+  - pub run test test/config.dart
+  - dartdoc
+deploy:
+  provider: netlify
+  site: casbin-dart
+  auth: $NETLIFY_AUTH
+  dir: doc/api
